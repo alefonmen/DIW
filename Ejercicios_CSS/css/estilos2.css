@@ -1,0 +1,38 @@
+
+
+
+body {
+  background-color: lightgrey;
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;          
+  background-position: center center;    /* centrada horizontal y verticalmente */
+  background-attachment: fixed;
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/* se queda fija al hacer scroll */
+}
+
+.manifesto {
+  background-color: rgba(20, 20, 20, 0.7); 
+  padding: 20px;
+}
+
+.manifesto2 {
+  background-color: rgba(20, 20, 20, 0.7); 
+  padding: 20px;
+}
+
+
+main{
+  font-size: 0.8rem;
+  background: url("../img/css3.png") center no-repeat,
+              url("../img/html5.png") center no-repeat,
+              url("../img/js.png") center no-repeat;
+
+}
+
+
+
+.footer{
+  background-color: #313131;
+  color:beige;
+}

@@ -1,0 +1,49 @@
+h1 {
+    font-size: 40px;
+    text-shadow: 3px 4px 5px gray;
+    margin-bottom: 40px;
+    padding: 30px;
+    text-align: center;
+}
+
+.card{
+    width: 350px;
+    padding: 30px;
+    margin: 0 auto;
+    border: 2px solid black;
+    background-color: white;
+    box-shadow: 8px 10px 12px gray;
+    text-align: center;
+
+}
+
+.card img {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 25px auto;
+}
+
+.card h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin: 25px 0;
+}
+
+.boton{
+    padding: 12px 30px;
+    margin-bottom: 20px;
+    display:inline-block;
+
+    background: linear-gradient(to bottom, #5475bc, #0f1d46);
+    color: white;
+
+    font-size: 18px;
+    text-decoration: none;
+
+    border-radius: 6px;
+    box-shadow: 4px 5px 8px gray;
+}

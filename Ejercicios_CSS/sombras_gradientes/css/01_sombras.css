@@ -1,0 +1,156 @@
+.title {
+    text-shadow: 3px 3px 2px gray;
+}
+
+p{
+    text-shadow: 2px 3px 3px violet;
+}
+
+.shady,
+.shady2,
+.shady3 {
+    width: 600px;
+    padding: 20px;
+    margin: 15px 30px;
+
+}
+
+.shady{
+    box-shadow: 4px 4px 4px 0px lime;
+}
+.shady2{
+    box-shadow: -4px -4px 0px 0px orangered ;
+}
+
+.shady3 {
+    box-shadow: 4px 0px 0px 0px dodgerblue;
+}
+
+/* Sombras múltiples - Apartado A */
+
+.multi-sombra{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(240, 46, 170);
+    box-shadow: 
+    5px 5px 0 rgba(240, 46, 170, 0.6),
+    10px 10px 0 rgba(240, 46, 170, 0.6),
+    15px 15px 0 rgba(240, 46, 170, 0.4),
+    20px 20px 0 rgba(240, 46, 170, 0.2);
+
+}
+
+/*Sombras múltiples - Apartado B */
+
+.multi-sombra-2{
+    width: 100px;
+    height: 100px;
+    margin: 70px;
+
+    box-shadow: 
+    0 0 0 4px rgb(85, 91, 255),
+    0 0 0 8px rgb(31, 193, 27),
+    0 0 0 12px rgb(255, 217, 19),
+    0 0 0 16px rgb(255, 156, 85),
+    0 0 0 20px rgb(255, 85, 85);;
+
+}
+
+/*Sombras múltiples - Apartado C */
+
+.multi-sombra-3{
+    width: 120px;
+    height: 120px;
+    margin: 100px 50px 70px;
+    
+    background-color: white;
+
+    border: 2px solid blue;
+
+    box-shadow:
+        12px -12px 0 -2px white,
+        12px -12px 0 0 rgb(31, 193, 27),
+
+        24px -24px 0 -2px white,
+        24px -24px 0 0 rgb(255, 217, 19),
+
+        36px -36px 0 -2px white,
+        36px -36px 0 0 rgb(255, 156, 85),
+
+        48px -48px 0 -2px white,
+        48px -48px 0 0 rgb(255, 85, 85);
+
+
+}
+
+
+/* Gradiente lineal */
+
+body {
+    background: linear-gradient(
+        to top,
+        #FFB88C,
+        #FFD8BE,
+        #FFF5ED
+    );
+    min-height: 100vh;
+}
+
+/*  background: linear-gradient(
+    to top,
+    rgba(255, 242, 184, 1) 0%,
+    rgba(255, 242, 184, 0.5) 50%,
+    rgba(255, 242, 184, 0) 100%
+);
+*/
+
+/* Gradiente arcoiris */
+.rainbow {
+    width: 90%;
+    height: 100px;
+    margin: 50px auto;
+    text-align: center;
+    background:linear-gradient(
+        to right,
+        red,
+        orange,
+        yellow,
+        blue,
+        indigo,
+        purple
+
+    );
+}
+
+.rainbow h2 {
+    color: #beb5b5;
+    font-size: 20px;
+    padding-top: 15px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* Gradiente cónico */
+.conico {
+    width: 200px;
+    height: 200px;
+    margin: 70px 50px;
+
+    border-radius: 50%;
+
+    background: conic-gradient(
+        red,
+        orange,
+        yellow,
+        lime,
+        green,
+        blue,
+        navy,
+        red
+    );
+}
+

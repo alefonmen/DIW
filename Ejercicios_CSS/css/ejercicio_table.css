@@ -1,0 +1,70 @@
+
+
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    width: max-content;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 32px;
+    margin: 0 0 26px;
+}
+
+nav ul {
+    display: table;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+}
+
+nav li {
+    display: table-cell;
+}
+
+nav a {
+    display: block;
+    padding: 22px;
+    background-color: #ff8800;
+    color: #551a8b;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+nav li:nth-child(even) a {
+    background-color: #218c68;
+}
+
+/*
+nav{
+    display: table;
+}
+
+
+nav ul {
+    display: table-row;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+}
+
+
+nav ul li{
+    display: table-cell;
+
+}
+    
+*/
+

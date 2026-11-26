@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+
+}
+
+
+
+main{
+    background-color: sandybrown;
+    height: 80vh;
+    width: 100%;
+
+}

@@ -1,0 +1,143 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    background: #dfc31c;
+}
+
+.container {
+    max-width: 1000px;
+    min-height: 100vh;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER */
+
+.header {
+    height: 100px;
+    background: #172e55;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header__nav {
+    display: flex;
+    gap: 10px;
+}
+
+.header__link {
+    color: white;
+    text-decoration: none;
+}
+
+/* CONTENIDO */
+
+.container-main {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    margin-top: 20px;
+}
+
+.container-servicios {
+    flex: 3;
+    order: 1;
+}
+
+.bloque-servicios {
+    display: flex;
+}
+
+.bloque-servicios__servicio {
+    flex: 1;
+    text-align: center;
+    color: white;
+}
+
+.bloque-servicios__servicio--elem1 {
+    background: #a96538;
+}
+
+.bloque-servicios__servicio--elem2 {
+    background: #4d638b;
+}
+
+.bloque-servicios__servicio--elem3 {
+    background: #7b8caf;
+}
+
+.aside {
+    flex: 2;
+    order: 2;
+    background: #d69770;
+    padding: 15px;
+}
+
+.aside h2 {
+    text-align: center;
+}
+
+.aside__link {
+    color: white;
+    text-decoration: none;
+}
+
+/* FOOTER */
+
+.footer {
+    height: 100px;
+    background: #304976;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 800px) {
+
+    .header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header__nav {
+        gap: 5px;
+    }
+
+    .container-main {
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .aside {
+        order: 1;
+        flex: none;
+    }
+
+    .container-servicios {
+        order: 2;
+        flex: none;
+    }
+
+    .bloque-servicios {
+        flex-direction: column;
+    }
+
+    .bloque-servicios__servicio {
+        flex: none;
+    }
+
+}

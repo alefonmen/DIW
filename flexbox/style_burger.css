@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.hero {
+    min-height: 100vh; /*Ocupe todo*/
+    width: 100%;
+    background-image: url("img/hamburguesa.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 30px;
+}
+
+
+
+.descuento {
+    background-color: #34566A;
+    color: #FFFFFF;
+
+    width: 280px;
+    padding: 20px;
+
+    text-align: center;
+    align-self: flex-start;
+}
+
+.porcentaje {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 0 0 8px;
+}
+
+.descuento p {
+    line-height: 1.5;
+}
+
+
+
+.apertura {
+    text-align: center;
+    color: #FFFFFF;
+    align-self: center;
+
+}
+
+.apertura h1 {
+    color: #FFFFFF;
+    font-size: 38px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.apertura p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.apertura h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+
+
+.hashtag {
+    background-color: #34566A;
+    color: #FFFFFF;
+
+    width: 280px;
+    padding: 15px;
+
+    text-align: center;
+    align-self: flex-end;
+}
+
+.hashtag p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+
+@media (max-width: 600px) {
+
+    .hero {
+        padding: 20px;
+        align-items: center;
+        background-position: center;
+    }
+
+    .descuento,
+    .hashtag {
+        width: 100%;
+        max-width: 350px;
+        align-self: center;
+    }
+
+    .apertura {
+        width: 100%;
+    }
+
+    .apertura h1 {
+        font-size: 26px;
+    }
+
+    .apertura p {
+        font-size: 14px;
+    }
+
+    .apertura h3 {
+        font-size: 15px;
+    }
+
+    .porcentaje {
+        font-size: 30px;
+    }
+
+    .hashtag p {
+        font-size: 14px;
+    }
+}

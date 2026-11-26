@@ -1,0 +1,42 @@
+
+
+/*Todo crece de forma proporcional, es mas recomendanle trabajar en em/rem*/
+html{
+    font-size: 20px; 
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    background-color:rgb(20, 91, 84) ;
+    border:2px dashed aliceblue;
+    width: 50rem;
+    padding: 2rem;
+    margin: 2rem;
+    color: aliceblue;
+    font-size: 14px;
+}
+
+.contaner2{
+    font-size: 2em; 
+/* 1rem==16px (por defecto)*/   
+}
+h1{
+    font-size: 3em;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+/*Usa rem casi siempre, y em solo cuando algo deba escalar con el tamaño de letra de su propio elemento.
+css
+html { font-size: 16px; }
+
+h1 { font-size: 2rem; }      /* 2 × 16px = 32px, siempre */
+
+ /*.boton { font-size: 20px; padding: 0.5em; }  /* 0.5 × 20px = 10px 
+rem mira solo el tamaño de letra de html.
+em mira el tamaño de letra del propio elemento (aquí, el botón).*/

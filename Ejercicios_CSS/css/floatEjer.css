@@ -1,0 +1,121 @@
+/*
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 27px;
+}
+
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: auto; 
+    /*Ensancha todo lo necesario para que los elementos no sobresalgan y hidden lo que sobresalga lo cultas 
+}
+
+
+img :nth-child(1){
+    float: right;
+}
+
+
+.logo-html {
+    width: 150px;
+    float: right;
+    margin: 10px 15px 10px 20px;
+}
+
+
+.container p:nth-of-type(2){
+    clear:right;
+}
+
+
+.container p:nth-of-type(3){
+    clear:leftt;
+}
+
+
+/*
+.logo-css {
+    width: 150px;
+    float: left;
+    margin: 10px 20px 10px 15px;
+}
+
+
+.logo-js {
+    width: 150px;
+    float: left;
+    margin: 10px 20px 10px 15px;
+}
+
+
+p {
+    font-size: 15px;
+    margin: 0 0 20px;
+    text-align: left;
+}
+/*
+
+
+
+/* Contenedor principal */
+.contenedor {
+    width: 95%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: darkgray;
+    overflow-y: auto;
+}
+
+/* Cabecera verde */
+.cabecera {
+    width: 100%;
+    height: 150px;
+    background-color: green;
+    float: left;
+    margin-bottom: 14px;
+}
+
+.columna-izquierda {
+    width: 25%;
+    height: 435px;
+    background-color: yellow;
+    float: left;
+    margin-right: 5%;
+}
+
+.contenido {
+    width: 70%;
+    float: left;
+}
+
+.caja-roja {
+    width: 28%;
+    height: 210px;
+    background-color: red;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 14px;
+}
+
+.caja-roja:nth-child(3) {
+    margin-right: 0;
+}
+
+.caja-azul {
+    width: 100%;
+    height: 210px;
+    background-color: blue;
+    float: left;
+}

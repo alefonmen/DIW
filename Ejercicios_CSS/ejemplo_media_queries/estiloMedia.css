@@ -1,0 +1,66 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 90%;
+}
+/*Mobile First (empiezo haciendo el diseño de la pantalla más pequeña*/
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+header {
+  background-color: yellow;
+  text-align: center;
+}
+
+.container > * {
+  height: 150px;
+}
+
+/*Media-query para pantallas mayores o iguales a 576px*/
+@media screen and (min-width: 576px) {
+  /*A partir de...*/
+  .red,
+  .blue {
+    width: 50%;
+    float: left;
+  }
+
+  .green {
+    float: left;
+    width: 100%;
+  }
+}
+
+/*Media-query para pantallas mayores o iguales a 992px*/
+@media screen and (min-width: 992px) {
+  .red,
+  .blue,
+  .green {
+    width: calc(100% / 3); /*Repartimos el 100% entre 3 espacios*/
+  }
+}
+
+@media screen and (orientation: landscape) {
+  header {
+    background-color: orange;
+    color: green;
+  }
+}
+

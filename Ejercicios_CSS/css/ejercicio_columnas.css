@@ -1,0 +1,30 @@
+
+body {
+    background: linear-gradient(to right, #a8c4ff, #45299d);
+}
+
+main {
+    width: 70%;
+    margin: 30px auto;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+/* Primer párrafo: columnas adaptables al ancho */
+.columns {
+    column-width: 120px;
+    column-gap: 18px;
+}
+
+/* Segundo párrafo: exactamente 3 columnas */
+.threecolumns {
+    column-count: 3;
+    column-gap: 2em;
+    column-rule: 1px dotted yellow;
+}

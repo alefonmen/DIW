@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/*Importar fuentes locales*/
+@font-face {
+    font-family: "Montserrat";
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+
+
+
+
+h1 {
+    color: #264653;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+/* Título de nivel 2 */
+h2 {
+    color: #2A9D8F;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Primer párrafo: destacado */
+.parrafo_destacado {
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #E9C46A;
+}
+
+/* Segundo párrafo: estándar */
+.parrafo_estandar {
+    font-size: 1.2rem;
+    color: #F4A261;
+}
+
+/* Resto de párrafos */
+p {
+    color: #2A9D8F;
+}
+
+
+/* Definición de variables custom para el ejercicio 5*/ 
+
+
+.parrafo_destacado{
+    color:var(--deep-sky-blue);
+    font-size: 0.8rem;
+    font-style: italic;
+}
